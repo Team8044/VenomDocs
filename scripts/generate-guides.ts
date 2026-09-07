@@ -40,7 +40,7 @@ for (const tool of tools) {
   if (!product) throw new Error(`Missing product details for ${tool.id}`);
   const image = imagesById.get(tool.id);
   if (!image) throw new Error(`Missing image details for ${tool.id}`);
-  const imageTag = `<img src="/VenomDocs${image.path}" alt=${yaml(image.alt)} loading="eager" decoding="async" />`;
+  const imageTag = `<img src="${image.path}" alt=${yaml(image.alt)} loading="eager" decoding="async" />`;
   const imageMarkup = image.verification === 'exact'
     ? `<figure class="tool-media"><a href="${image.sourcePageUrl}">${imageTag}</a><figcaption>Image: ${image.sourceLabel}</figcaption></figure>`
     : `<figure class="tool-media tool-media--needed">${imageTag}<figcaption>Photo needed · ${tool.brand} ${tool.model}</figcaption></figure>`;

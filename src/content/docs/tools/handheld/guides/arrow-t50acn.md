@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://arrowtoolgroup.com/arrow-t50acn-corded-electric-staple-brad-nail-gun/"><img src="/VenomDocs/images/tools/arrow-t50acn.webp" alt="Electric Staple Gun and Nailer, Arrow T50ACN" loading="eager" decoding="async" /></a><figcaption>Image: Arrow Tool Group</figcaption></figure>
+  <figure class="tool-media"><a href="https://arrowtoolgroup.com/arrow-t50acn-corded-electric-staple-brad-nail-gun/"><img src="/images/tools/arrow-t50acn.webp" alt="Electric Staple Gun and Nailer, Arrow T50ACN" loading="eager" decoding="async" /></a><figcaption>Image: Arrow Tool Group</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>Arrow</dd></div>

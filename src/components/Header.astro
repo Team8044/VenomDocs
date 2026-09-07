@@ -5,11 +5,11 @@ import SocialIcons from '@astrojs/starlight/components/SocialIcons.astro';
 import ThemeSelect from '@astrojs/starlight/components/ThemeSelect.astro';
 const currentPath = Astro.url.pathname;
 const links = [
-  { label: 'Home', href: '/VenomDocs/' },
-  { label: 'Tools', href: '/VenomDocs/tools/handheld/' },
-  { label: 'Contributing', href: '/VenomDocs/contributing/' }
+  { label: 'Home', href: '/' },
+  { label: 'Tools', href: '/tools/handheld/' },
+  { label: 'Contributing', href: '/contributing/' }
 ];
-const isCurrent = (href: string) => href === '/VenomDocs/' ? currentPath === href : currentPath.startsWith(href);
+const isCurrent = (href: string) => href === '/' ? currentPath === href : currentPath.startsWith(href);
 ---
 
 <div class="venom-header">

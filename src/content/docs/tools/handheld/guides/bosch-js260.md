@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/bosch-js260.webp" alt="Jig Saw, Bosch JS260" loading="eager" decoding="async" /><figcaption>Photo needed · Bosch JS260</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/bosch-js260.webp" alt="Jig Saw, Bosch JS260" loading="eager" decoding="async" /><figcaption>Photo needed · Bosch JS260</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>Bosch</dd></div>

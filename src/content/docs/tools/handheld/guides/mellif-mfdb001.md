@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/mellif-mfdb001.webp" alt="Cordless Air Blower, Mellif MFDB001" loading="eager" decoding="async" /><figcaption>Photo needed · Mellif MFDB001</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/mellif-mfdb001.webp" alt="Cordless Air Blower, Mellif MFDB001" loading="eager" decoding="async" /><figcaption>Photo needed · Mellif MFDB001</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>Mellif</dd></div>

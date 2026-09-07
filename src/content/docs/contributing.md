@@ -16,7 +16,7 @@ The production check is:
 npm run build
 ```
 
-This validates inventory records, type-checks Astro content, and builds the static site using the `/VenomDocs/` project path.
+This validates inventory records, type-checks Astro content, and builds the static site for `https://docs.team8044.org/`.
 
 ## Add or update a tool
 

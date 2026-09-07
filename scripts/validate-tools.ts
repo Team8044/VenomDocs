@@ -28,7 +28,7 @@ for (const tool of tools) {
     throw new Error(`Exact image for ${tool.id} is missing provenance`);
   }
   if (image.verification === 'photo-needed' && image.imageSourceUrl !== null) throw new Error(`Placeholder for ${tool.id} must be marked photo-needed`);
-  if (!guideContent.includes(`/VenomDocs${image.path}`)) throw new Error(`Guide for ${tool.id} does not reference its local image`);
+  if (!guideContent.includes(`src="${image.path}"`)) throw new Error(`Guide for ${tool.id} does not reference its local image`);
   for (const required of ['class="tool-overview"', 'class="tool-media', 'class="tool-details"', 'class="tool-facts"', '## Key specifications']) {
     if (!guideContent.includes(required)) throw new Error(`${tool.id} is missing product-header content: ${required}`);
   }
@@ -59,7 +59,7 @@ const homepage = readFileSync(`${root}/src/content/docs/index.mdx`, 'utf8');
 for (const phrase of ['A living shop manual', 'Start here', 'Browse handheld tools', 'designed to', 'Product resources', 'Take the Tour', 'Safety First', 'tagline:', 'actions:']) {
   if (homepage.includes(phrase)) throw new Error(`Homepage contains removed landing-page copy: ${phrase}`);
 }
-for (const required of ['template: splash', 'hero:', 'title: Venom Docs', '## Shop & Fabrication', 'Handheld Power Tools', '20 models · 25 tools', '/VenomDocs/tools/handheld/']) {
+for (const required of ['template: splash', 'hero:', 'title: Venom Docs', '## Shop & Fabrication', 'Handheld Power Tools', '20 models · 25 tools', '/tools/handheld/']) {
   if (!homepage.includes(required)) throw new Error(`Homepage is missing required directory content: ${required}`);
 }
 for (const emptyGroup of ['## Technical', '## Team Operations']) {

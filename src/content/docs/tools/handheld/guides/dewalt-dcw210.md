@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/dewalt-dcw210.webp" alt="Random-Orbit Palm Sander (Type 2), DeWalt DCW210" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCW210</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/dewalt-dcw210.webp" alt="Random-Orbit Palm Sander (Type 2), DeWalt DCW210" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCW210</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

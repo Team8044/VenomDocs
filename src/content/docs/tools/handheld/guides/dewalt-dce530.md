@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://www.pawnamerica.com/Product/Id/519798"><img src="/VenomDocs/images/tools/dewalt-dce530.webp" alt="Heat Gun (Type 10), DeWalt DCE530" loading="eager" decoding="async" /></a><figcaption>Image: Pawn America</figcaption></figure>
+  <figure class="tool-media"><a href="https://www.pawnamerica.com/Product/Id/519798"><img src="/images/tools/dewalt-dce530.webp" alt="Heat Gun (Type 10), DeWalt DCE530" loading="eager" decoding="async" /></a><figcaption>Image: Pawn America</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

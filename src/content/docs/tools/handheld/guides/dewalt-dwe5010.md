@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/dewalt-dwe5010.webp" alt="Single-Speed Hammer Drill, DeWalt DWE5010" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DWE5010</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/dewalt-dwe5010.webp" alt="Single-Speed Hammer Drill, DeWalt DWE5010" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DWE5010</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://toolmart.me/en/products/dewalt-dcf887-18v-xr-cordless-impact-driver"><img src="/VenomDocs/images/tools/dewalt-dcf887.webp" alt="Cordless Impact Driver (Type 3), DeWalt DCF887" loading="eager" decoding="async" /></a><figcaption>Image: ToolMart</figcaption></figure>
+  <figure class="tool-media"><a href="https://toolmart.me/en/products/dewalt-dcf887-18v-xr-cordless-impact-driver"><img src="/images/tools/dewalt-dcf887.webp" alt="Cordless Impact Driver (Type 3), DeWalt DCF887" loading="eager" decoding="async" /></a><figcaption>Image: ToolMart</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

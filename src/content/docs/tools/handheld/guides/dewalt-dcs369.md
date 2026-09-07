@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://mastertools.nl/nl_nl/product/dewalt-accu-reciprozaag-dcs369p2-qw"><img src="/VenomDocs/images/tools/dewalt-dcs369.webp" alt="Compact Reciprocating Saw, DeWalt DCS369" loading="eager" decoding="async" /></a><figcaption>Image: Mastertools</figcaption></figure>
+  <figure class="tool-media"><a href="https://mastertools.nl/nl_nl/product/dewalt-accu-reciprozaag-dcs369p2-qw"><img src="/images/tools/dewalt-dcs369.webp" alt="Compact Reciprocating Saw, DeWalt DCS369" loading="eager" decoding="async" /></a><figcaption>Image: Mastertools</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

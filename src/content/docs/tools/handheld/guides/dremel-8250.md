@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://www.dremel.com/us/en/p/8250-5-f0138250aa"><img src="/VenomDocs/images/tools/dremel-8250.webp" alt="Brushless Rotary Tool, Dremel 8250-5" loading="eager" decoding="async" /></a><figcaption>Image: Dremel</figcaption></figure>
+  <figure class="tool-media"><a href="https://www.dremel.com/us/en/p/8250-5-f0138250aa"><img src="/images/tools/dremel-8250.webp" alt="Brushless Rotary Tool, Dremel 8250-5" loading="eager" decoding="async" /></a><figcaption>Image: Dremel</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>Dremel</dd></div>

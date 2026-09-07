@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://www.bol.com/nl/nl/p/dewalt-accu-boorschroefmachine-dcd794d2t-18v-geel-zwart-inclusief-2x-2-0ah-li-ion-xr-accu-s-tstak-koffer/9300000230128269/"><img src="/VenomDocs/images/tools/dewalt-dcd794.webp" alt="Cordless Drill/Driver (Type 1), DeWalt DCD794" loading="eager" decoding="async" /></a><figcaption>Image: bol</figcaption></figure>
+  <figure class="tool-media"><a href="https://www.bol.com/nl/nl/p/dewalt-accu-boorschroefmachine-dcd794d2t-18v-geel-zwart-inclusief-2x-2-0ah-li-ion-xr-accu-s-tstak-koffer/9300000230128269/"><img src="/images/tools/dewalt-dcd794.webp" alt="Cordless Drill/Driver (Type 1), DeWalt DCD794" loading="eager" decoding="async" /></a><figcaption>Image: bol</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

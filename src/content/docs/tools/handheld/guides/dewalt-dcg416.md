@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://www.i-tools.co.nz/products/dewalt-brushless-grinder-1820v-max-flexvolt-adv-dcg416-free-bag"><img src="/VenomDocs/images/tools/dewalt-dcg416.webp" alt="Angle Grinder (Type 10), DeWalt DCG416" loading="eager" decoding="async" /></a><figcaption>Image: i-tools</figcaption></figure>
+  <figure class="tool-media"><a href="https://www.i-tools.co.nz/products/dewalt-brushless-grinder-1820v-max-flexvolt-adv-dcg416-free-bag"><img src="/images/tools/dewalt-dcg416.webp" alt="Angle Grinder (Type 10), DeWalt DCG416" loading="eager" decoding="async" /></a><figcaption>Image: i-tools</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

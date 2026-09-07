@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/dewalt-dcd771.webp" alt="Cordless Drill/Driver (Type 2), DeWalt DCD771" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCD771</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/dewalt-dcd771.webp" alt="Cordless Drill/Driver (Type 2), DeWalt DCD771" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCD771</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

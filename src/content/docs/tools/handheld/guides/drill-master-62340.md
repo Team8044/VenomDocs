@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/drill-master-62340.webp" alt="Dual-Temperature Heat Gun, Drill Master 62340" loading="eager" decoding="async" /><figcaption>Photo needed · Drill Master 62340</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/drill-master-62340.webp" alt="Dual-Temperature Heat Gun, Drill Master 62340" loading="eager" decoding="async" /><figcaption>Photo needed · Drill Master 62340</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>Drill Master</dd></div>

@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/bauer-1678e-b.webp" alt="Portable Band Saw Kit, Bauer 1678E-B" loading="eager" decoding="async" /><figcaption>Photo needed · Bauer 1678E-B</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/bauer-1678e-b.webp" alt="Portable Band Saw Kit, Bauer 1678E-B" loading="eager" decoding="async" /><figcaption>Photo needed · Bauer 1678E-B</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>Bauer</dd></div>

@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/dewalt-dcv581h.webp" alt="2-Gallon Wet/Dry Vacuum, DeWalt DCV581H" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCV581H</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/dewalt-dcv581h.webp" alt="2-Gallon Wet/Dry Vacuum, DeWalt DCV581H" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCV581H</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

@@ -2,8 +2,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://team8044.github.io',
-  base: '/VenomDocs',
+  site: 'https://docs.team8044.org',
+  base: '/',
   integrations: [
     starlight({
       title: 'Venom Docs',

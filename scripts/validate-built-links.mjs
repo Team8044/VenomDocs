@@ -3,7 +3,6 @@ import { extname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../dist/', import.meta.url));
-const base = '/VenomDocs';
 const htmlFiles = [];
 
 function walk(directory) {
@@ -21,11 +20,7 @@ for (const file of htmlFiles) {
   for (const match of html.matchAll(/href="([^"#?]+)(?:[?#][^"]*)?"/g)) {
     const href = match[1];
     if (!href?.startsWith('/')) continue;
-    if (!href.startsWith(`${base}/`) && href !== base) {
-      failures.push(`${relative(root, file)}: link escapes base path: ${href}`);
-      continue;
-    }
-    const pathname = href.slice(base.length).replace(/^\//, '');
+    const pathname = href.replace(/^\//, '');
     const target = pathname === '' ? join(root, 'index.html') : pathname.endsWith('/') ? join(root, pathname, 'index.html') : join(root, pathname);
     if (!existsSync(target)) failures.push(`${relative(root, file)}: missing target ${href}`);
   }

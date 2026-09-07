@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/pd204-work-light.webp" alt="DeWalt-Battery-Compatible Work Light, Unknown PD204" loading="eager" decoding="async" /><figcaption>Photo needed · Unknown PD204</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/pd204-work-light.webp" alt="DeWalt-Battery-Compatible Work Light, Unknown PD204" loading="eager" decoding="async" /><figcaption>Photo needed · Unknown PD204</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>Unknown</dd></div>

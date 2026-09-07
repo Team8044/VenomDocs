@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media"><a href="https://www.mytoolshed.co.uk/dewalt-dcf403-18v-xr-cordless-brushless-riveter-gun/prod/661458/"><img src="/VenomDocs/images/tools/dewalt-dcf403.webp" alt="Cordless Rivet Tool (Type 1), DeWalt DCF403" loading="eager" decoding="async" /></a><figcaption>Image: MyToolShed</figcaption></figure>
+  <figure class="tool-media"><a href="https://www.mytoolshed.co.uk/dewalt-dcf403-18v-xr-cordless-brushless-riveter-gun/prod/661458/"><img src="/images/tools/dewalt-dcf403.webp" alt="Cordless Rivet Tool (Type 1), DeWalt DCF403" loading="eager" decoding="async" /></a><figcaption>Image: MyToolShed</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>

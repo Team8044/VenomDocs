@@ -6,7 +6,7 @@ sidebar:
 ---
 
 <div class="tool-overview">
-  <figure class="tool-media tool-media--needed"><img src="/VenomDocs/images/tools/dewalt-dcf680.webp" alt="Gyroscopic Cordless Screwdriver (Type 1), DeWalt DCF680" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCF680</figcaption></figure>
+  <figure class="tool-media tool-media--needed"><img src="/images/tools/dewalt-dcf680.webp" alt="Gyroscopic Cordless Screwdriver (Type 1), DeWalt DCF680" loading="eager" decoding="async" /><figcaption>Photo needed · DeWalt DCF680</figcaption></figure>
   <div class="tool-details">
     <dl class="tool-facts">
       <div><dt>Brand</dt><dd>DeWalt</dd></div>
