@@ -1,0 +1,65 @@
+---
+import Search from '@astrojs/starlight/components/Search.astro';
+import SiteTitle from '@astrojs/starlight/components/SiteTitle.astro';
+import SocialIcons from '@astrojs/starlight/components/SocialIcons.astro';
+import ThemeSelect from '@astrojs/starlight/components/ThemeSelect.astro';
+const currentPath = Astro.url.pathname;
+const links = [
+  { label: 'Home', href: '/VenomDocs/' },
+  { label: 'Tools', href: '/VenomDocs/tools/handheld/' },
+  { label: 'Contributing', href: '/VenomDocs/contributing/' }
+];
+const isCurrent = (href: string) => href === '/VenomDocs/' ? currentPath === href : currentPath.startsWith(href);
+---
+
+<div class="venom-header">
+  <div class="venom-header__title"><SiteTitle /></div>
+
+  <nav class="venom-header__nav" aria-label="Main navigation">
+    {links.map((link) => <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a>)}
+  </nav>
+
+  <div class="venom-header__utilities print:hidden">
+    <Search />
+    <div class="venom-header__social"><SocialIcons /></div>
+    <ThemeSelect />
+  </div>
+
+  <details class="venom-header__menu print:hidden">
+    <summary aria-label="Open main navigation"><span aria-hidden="true"></span></summary>
+    <nav aria-label="Mobile main navigation">
+      {links.map((link) => <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a>)}
+    </nav>
+  </details>
+</div>
+
+<style>
+  @layer starlight.core {
+    .venom-header { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: clamp(1rem, 3vw, 2.5rem); height: 100%; color: #fff; }
+    .venom-header__title { min-width: 0; overflow: clip; }
+    .venom-header__nav { display: flex; align-items: center; gap: clamp(1.1rem, 2.4vw, 2.25rem); }
+    .venom-header__nav a, .venom-header__menu a { color: rgb(255 255 255 / 88%); font-weight: 650; text-decoration: none; }
+    .venom-header__nav a:hover, .venom-header__nav a[aria-current='page'], .venom-header__menu a:hover, .venom-header__menu a[aria-current='page'] { color: #fff; }
+    .venom-header__utilities { display: flex; align-items: center; gap: .9rem; }
+    .venom-header__social { display: flex; align-items: center; }
+    .venom-header__menu { display: none; position: relative; }
+    .venom-header__menu summary { display: grid; place-items: center; width: 2.5rem; height: 2.5rem; cursor: pointer; list-style: none; border: 1px solid rgb(255 255 255 / 30%); border-radius: .55rem; }
+    .venom-header__menu summary::-webkit-details-marker { display: none; }
+    .venom-header__menu summary span, .venom-header__menu summary span::before, .venom-header__menu summary span::after { display: block; width: 1.15rem; height: 2px; background: currentColor; content: ''; }
+    .venom-header__menu summary span::before { transform: translateY(-.36rem); }
+    .venom-header__menu summary span::after { transform: translateY(.24rem); }
+    .venom-header__menu nav { position: absolute; z-index: 10; inset-block-start: calc(100% + .65rem); inset-inline-end: 0; display: grid; min-width: 12rem; padding: .55rem; border: 1px solid rgb(255 255 255 / 24%); border-radius: .7rem; background: #3d0863; box-shadow: 0 14px 35px rgb(0 0 0 / 28%); }
+    .venom-header__menu a { padding: .7rem .8rem; border-radius: .4rem; }
+    .venom-header__menu a:hover { background: rgb(255 255 255 / 10%); }
+
+    @media (max-width: 64rem) {
+      .venom-header { grid-template-columns: minmax(0, 1fr) auto auto; gap: .65rem; }
+      .venom-header__nav { display: none; }
+      .venom-header__menu { display: block; }
+      .venom-header__social { display: none; }
+    }
+    @media (max-width: 30rem) {
+      .venom-header__utilities { gap: .35rem; }
+    }
+  }
+</style>

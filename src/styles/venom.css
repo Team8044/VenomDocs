@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Nasalization";
+  src: url("/VenomDocs/fonts/Nasalization.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root,
+:root[data-theme='dark'] {
+  --sl-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --sl-color-accent-low: #24153a;
+  --sl-color-accent: #a985e7;
+  --sl-color-accent-high: #e9ddfb;
+  --sl-color-white: #f3f4f6;
+  --sl-color-gray-1: #d9dde3;
+  --sl-color-gray-2: #b3bac4;
+  --sl-color-gray-3: #929aa6;
+  --sl-color-gray-4: #59616d;
+  --sl-color-gray-5: #343b46;
+  --sl-color-gray-6: #171b21;
+  --sl-color-black: #0b0d10;
+  --venom-page: #0b0d10;
+  --venom-surface: #111419;
+  --venom-raised: #171b21;
+  --venom-border: #292f38;
+  --venom-text: #f3f4f6;
+  --venom-muted: #aab1bc;
+  --venom-purple: #8a61cc;
+  --venom-purple-strong: #a985e7;
+  --venom-gold: #f2c94c;
+  --venom-header: rgb(11 13 16 / 94%);
+  --venom-sidebar: #0d1014;
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #eee7fa;
+  --sl-color-accent: #65409f;
+  --sl-color-accent-high: #30145a;
+  --sl-color-white: #17131d;
+  --sl-color-gray-1: #27222f;
+  --sl-color-gray-2: #494151;
+  --sl-color-gray-3: #655c6d;
+  --sl-color-gray-4: #948b9d;
+  --sl-color-gray-5: #ddd7e3;
+  --sl-color-gray-6: #f1edf4;
+  --sl-color-gray-7: #f8f6fa;
+  --sl-color-black: #ffffff;
+  --venom-page: #fbfafc;
+  --venom-surface: #ffffff;
+  --venom-raised: #f4f0f7;
+  --venom-border: #ddd6e3;
+  --venom-text: #211a28;
+  --venom-muted: #655c6d;
+  --venom-purple: #65409f;
+  --venom-purple-strong: #4f2d87;
+  --venom-gold: #9b6a00;
+  --venom-header: rgb(255 255 255 / 94%);
+  --venom-sidebar: #f7f4f9;
+  color-scheme: light;
+}
+
+html, body { background: var(--venom-page); color: var(--venom-text); }
+::selection { background: rgb(118 80 183 / 35%); }
+:focus-visible { outline: 2px solid var(--venom-purple-strong); outline-offset: 3px; }
+.site-title, .content-panel h1, .content-panel h2, .hero h1 { font-family: "Nasalization", var(--sl-font); font-weight: 500; letter-spacing: .025em; }
+header.header { border-bottom-color: transparent; background: linear-gradient(90deg, #350557, #4e0878); box-shadow: 0 1px 0 rgb(255 255 255 / 9%); }
+.venom-header .site-title { color: #fff; }
+.venom-header .site-title:hover { color: #fff; }
+.venom-header button, .venom-header select, .venom-header a { --sl-color-text-accent: #fff; --sl-color-gray-2: #fff; --sl-color-white: #fff; }
+.site-title img { width: 2.125rem; height: 2.125rem; object-fit: contain; }
+.sidebar-pane { background: var(--venom-sidebar); }
+.right-sidebar { border-inline-start-color: var(--venom-border); }
+.sl-markdown-content a:not(.sl-link-button) { text-underline-offset: .18em; }
+.sl-markdown-content table { display: table; width: 100%; font-size: .9rem; }
+.sl-markdown-content th { color: var(--venom-text); background: var(--venom-raised); }
+.sl-markdown-content th, .sl-markdown-content td { border-color: var(--venom-border); }
+
+.hero { min-height: clamp(12rem, 29vw, 22rem); border: 0; border-radius: 16px; background: radial-gradient(circle at 30% 80%, rgb(139 61 184 / 32%), transparent 38%), linear-gradient(120deg, #350557, #4e0878); padding: clamp(2rem, 6vw, 4rem); }
+.hero .stack { justify-content: center; }
+.hero h1 { color: #fff !important; font-size: clamp(2.5rem, 7vw, 4.75rem) !important; }
+.hero .tagline { max-width: 48rem; color: var(--venom-muted); }
+.sl-link-button.primary { background: var(--venom-purple); border-color: var(--venom-purple); color: white; }
+.sl-link-button.primary:hover { background: var(--venom-purple-strong); }
+.card-grid { gap: 1rem; }
+.card { border-color: var(--venom-border) !important; border-radius: 12px !important; background: var(--venom-surface) !important; box-shadow: 0 8px 24px rgb(0 0 0 / 8%); }
+.section-card { color: inherit; text-decoration: none !important; border-radius: 12px; }
+.section-card .card { height: 100%; transition: border-color 140ms ease, transform 140ms ease; }
+.section-card:hover .card { border-color: var(--venom-purple) !important; transform: translateY(-1px); }
+.section-card:focus-visible { outline: 2px solid var(--venom-purple-strong); outline-offset: 3px; }
+.home-section-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.15rem; }
+.home-section-card { display: grid; gap: .7rem; min-height: 9rem; align-content: center; padding: 1.5rem; border: 1px solid var(--venom-border); border-radius: 14px; background: var(--venom-surface); color: var(--venom-text) !important; text-decoration: none !important; box-shadow: 0 8px 24px rgb(0 0 0 / 7%); transition: border-color 140ms ease, transform 140ms ease, box-shadow 140ms ease; }
+.home-section-card strong { font-family: "Nasalization", var(--sl-font); font-size: 1.2rem; font-weight: 500; letter-spacing: .025em; }
+.home-section-card span { color: var(--venom-muted); font-size: .88rem; }
+.home-section-card:hover { border-color: var(--venom-purple); transform: translateY(-2px); box-shadow: 0 12px 30px rgb(0 0 0 / 11%); }
+:root:not([data-has-sidebar]) main { padding-block: clamp(2rem, 5vw, 4.5rem); }
+:root:not([data-has-sidebar]) .content-panel { padding-inline: clamp(1rem, 5vw, 3rem); }
+:root:not([data-has-sidebar]) .content-panel + .content-panel { border-top: 0; }
+
+.inventory-controls { display: grid; grid-template-columns: minmax(14rem, 2fr) repeat(2, minmax(10rem, 1fr)); gap: .75rem; margin: 1.25rem 0; }
+.inventory-controls label { display: grid; gap: .35rem; color: var(--venom-muted); font-size: .8rem; font-weight: 700; }
+.inventory-controls input, .inventory-controls select { min-height: 2.65rem; width: 100%; border: 1px solid var(--venom-border); border-radius: 9px; background: var(--venom-raised); color: var(--venom-text); padding: .6rem .75rem; font: inherit; }
+.inventory-summary { color: var(--venom-muted); font-size: .9rem; }
+.inventory-table-wrap { overflow-x: auto; border: 1px solid var(--venom-border); border-radius: 12px; background: var(--venom-surface); }
+.inventory-table { margin: 0 !important; min-width: 43rem; }
+.inventory-table a { font-weight: 700; }
+.inventory-table tbody tr:hover { background: color-mix(in srgb, var(--venom-purple) 9%, transparent); }
+.inventory-empty { padding: 1.25rem; color: var(--venom-muted); }
+.tool-overview { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(15rem, .9fr); gap: clamp(1.5rem, 4vw, 3.25rem); align-items: center; margin: .5rem 0 2.5rem; }
+.tool-media { display: grid; justify-items: center; gap: .5rem; min-width: 0; margin: 0; }
+.tool-media > a { display: grid; width: 100%; text-decoration: none; }
+.tool-media img { display: block; width: 100%; height: auto; max-height: 22rem; object-fit: contain; margin: auto; }
+.tool-media figcaption { color: var(--venom-muted); font-size: .76rem; }
+.tool-media--needed img { max-height: 18rem; }
+.tool-details { min-width: 0; }
+.tool-facts { display: grid; margin: 0; }
+.tool-facts > div { display: grid; grid-template-columns: minmax(5.5rem, .75fr) minmax(0, 1.25fr); gap: 1rem; padding: .65rem 0; border-bottom: 1px solid var(--venom-border); }
+.tool-facts dt { color: var(--venom-muted); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.tool-facts dd { margin: 0; color: var(--venom-text); font-weight: 650; overflow-wrap: anywhere; }
+.tool-inventory-note { display: grid; gap: .3rem; margin: 1rem 0 0; color: var(--venom-text); font-size: .88rem; }
+.tool-inventory-note span { color: var(--venom-muted); font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.tool-actions { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1.15rem; }
+.tool-actions a { display: inline-flex; align-items: center; min-height: 2.35rem; padding: .45rem .8rem; border: 1px solid var(--venom-purple); border-radius: .5rem; color: var(--venom-purple-strong); font-size: .84rem; font-weight: 700; line-height: 1.2; text-decoration: none !important; }
+.tool-actions a:hover { background: color-mix(in srgb, var(--venom-purple) 10%, transparent); }
+
+@media (max-width: 52rem) { .inventory-controls { grid-template-columns: 1fr; } .home-section-grid { grid-template-columns: 1fr; } .hero { min-height: 10rem; } .tool-overview { grid-template-columns: 1fr; gap: 1.25rem; } .tool-media img { max-height: 17rem; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; } }

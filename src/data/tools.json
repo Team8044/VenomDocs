@@ -1,0 +1,383 @@
+[
+  {
+    "id": "dewalt-dcd771",
+    "name": "Cordless Drill/Driver (Type 2)",
+    "brand": "DeWalt",
+    "model": "DCD771",
+    "quantity": 1,
+    "category": "Drilling & Driving",
+    "power": "20V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 2"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcd771/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcd771c2/20v-max-cordless-drilldriver-kit",
+    "manualUrl": "https://www.dewalt.com/GLOBALBOM/QU/DCD771/12/Instruction_Manual/EN/NA322754_DCD771_T1_NA.pdf",
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcd794",
+    "name": "Cordless Drill/Driver (Type 1)",
+    "brand": "DeWalt",
+    "model": "DCD794",
+    "quantity": 3,
+    "category": "Drilling & Driving",
+    "power": "20V MAX",
+    "notes": "Merged from two spreadsheet entries (2 + 1).",
+    "sourceRows": [
+      "Sheet1 left block row 3",
+      "Sheet1 right block row 3"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcd794/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcd794b/20v-max-xr-brushless-cordless-compact-drilldriver-tool-only",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcf887",
+    "name": "Cordless Impact Driver (Type 3)",
+    "brand": "DeWalt",
+    "model": "DCF887",
+    "quantity": 1,
+    "category": "Drilling & Driving",
+    "power": "20V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 4"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcf887/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcf887b/20v-max-xr-14-3-speed-impact-driver-tool-only",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcf403",
+    "name": "Cordless Rivet Tool (Type 1)",
+    "brand": "DeWalt",
+    "model": "DCF403",
+    "quantity": 1,
+    "category": "Heat & Fastening",
+    "power": "20V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 5"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcf403/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcf403b/20v-max-xr-brushless-cordless-316-rivet-tool-tool-only",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "mellif-mfdb001",
+    "name": "Cordless Air Blower",
+    "brand": "Mellif",
+    "model": "MFDB001",
+    "quantity": 1,
+    "category": "Cleanup & Utility",
+    "power": "DeWalt 20V MAX-compatible battery",
+    "notes": "Third-party tool; verify exact model label and battery compatibility before use.",
+    "sourceRows": [
+      "Sheet1 left block row 6"
+    ],
+    "guide": "/tools/handheld/guides/mellif-mfdb001/",
+    "manufacturerUrl": null,
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcs369",
+    "name": "Compact Reciprocating Saw",
+    "brand": "DeWalt",
+    "model": "DCS369",
+    "quantity": 1,
+    "category": "Cutting",
+    "power": "20V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 7"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcs369/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcs369b/atomic-20v-max-cordless-one-handed-reciprocating-saw-tool-only",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "mellif-mf0401y",
+    "name": "Hot-Melt Glue Gun",
+    "brand": "Mellif",
+    "model": "MF0401Y",
+    "quantity": 2,
+    "category": "Heat & Fastening",
+    "power": "DeWalt 20V MAX-compatible battery",
+    "notes": "Third-party tool; verify exact model label and battery compatibility before use.",
+    "sourceRows": [
+      "Sheet1 left block row 8"
+    ],
+    "guide": "/tools/handheld/guides/mellif-mf0401y/",
+    "manufacturerUrl": null,
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcw210",
+    "name": "Random-Orbit Palm Sander (Type 2)",
+    "brand": "DeWalt",
+    "model": "DCW210",
+    "quantity": 1,
+    "category": "Finishing",
+    "power": "20V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 9"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcw210/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcw210b/20v-max-xr-5-brushless-cordless-variable-speed-random-orbital-sander-tool-only",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dce530",
+    "name": "Heat Gun (Type 10)",
+    "brand": "DeWalt",
+    "model": "DCE530",
+    "quantity": 1,
+    "category": "Heat & Fastening",
+    "power": "20V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 10"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dce530/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dce530b/20v-max-cordless-heat-gun-tool-only",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcg416",
+    "name": "Angle Grinder (Type 10)",
+    "brand": "DeWalt",
+    "model": "DCG416",
+    "quantity": 1,
+    "category": "Cutting",
+    "power": "20V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 11"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcg416/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcg416b/20v-max-xr-brushless-cordless-4-12-5-paddle-switch-angle-grinder-flexvolt-advantage-tool-only",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcf680",
+    "name": "Gyroscopic Cordless Screwdriver (Type 1)",
+    "brand": "DeWalt",
+    "model": "DCF680",
+    "quantity": 2,
+    "category": "Drilling & Driving",
+    "power": "8V MAX",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 12"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcf680/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcf680n2/8v-max-gyroscopic-inline-screwdriver-kit",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dremel-8250",
+    "name": "Brushless Rotary Tool",
+    "brand": "Dremel",
+    "model": "8250-5",
+    "quantity": 1,
+    "category": "Cutting",
+    "power": "12V cordless",
+    "notes": "Spreadsheet model normalized from “8250- 5”.",
+    "sourceRows": [
+      "Sheet1 left block row 13"
+    ],
+    "guide": "/tools/handheld/guides/dremel-8250/",
+    "manufacturerUrl": "https://www.dremel.com/us/en/p/8250-5-f0138250aa",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "bauer-1678e-b",
+    "name": "Portable Band Saw Kit",
+    "brand": "Bauer",
+    "model": "1678E-B",
+    "quantity": 1,
+    "category": "Cutting",
+    "power": "Corded",
+    "notes": "Verify catalog model against the tool nameplate; Harbor Freight commonly identifies this saw by item number.",
+    "sourceRows": [
+      "Sheet1 left block row 14"
+    ],
+    "guide": "/tools/handheld/guides/bauer-1678e-b/",
+    "manufacturerUrl": null,
+    "manualUrl": "https://manuals.harborfreight.com/manuals/64000-64999/64194.pdf",
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "drill-master-62340",
+    "name": "Dual-Temperature Heat Gun",
+    "brand": "Drill Master",
+    "model": "62340",
+    "quantity": 1,
+    "category": "Heat & Fastening",
+    "power": "120V corded",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 15"
+    ],
+    "guide": "/tools/handheld/guides/drill-master-62340/",
+    "manufacturerUrl": null,
+    "manualUrl": "https://manuals.harborfreight.com/manuals/62000-62999/62340.pdf",
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "arrow-t50acn",
+    "name": "Electric Staple Gun and Nailer",
+    "brand": "Arrow",
+    "model": "T50ACN",
+    "quantity": 2,
+    "category": "Heat & Fastening",
+    "power": "120V corded",
+    "notes": "One unit in Storage; the other in the Pit.",
+    "sourceRows": [
+      "Sheet1 left block row 16"
+    ],
+    "guide": "/tools/handheld/guides/arrow-t50acn/",
+    "manufacturerUrl": "https://arrowfastener.com/tool/t50acn/",
+    "manualUrl": null,
+    "team": {
+      "location": "One in Storage; one in the Pit (spreadsheet note—verify labels)"
+    }
+  },
+  {
+    "id": "bosch-js260",
+    "name": "Jig Saw",
+    "brand": "Bosch",
+    "model": "JS260",
+    "quantity": 1,
+    "category": "Cutting",
+    "power": "120V corded",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 17"
+    ],
+    "guide": "/tools/handheld/guides/bosch-js260/",
+    "manufacturerUrl": "https://www.boschtools.com/us/en/products/js260-06015A4020",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dcv581h",
+    "name": "2-Gallon Wet/Dry Vacuum",
+    "brand": "DeWalt",
+    "model": "DCV581H",
+    "quantity": 1,
+    "category": "Cleanup & Utility",
+    "power": "20V MAX or 120V AC",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 left block row 18"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dcv581h/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dcv581h/20v-max-cordlesscorded-wet-dry-vacuum",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dewalt-dwe5010",
+    "name": "Single-Speed Hammer Drill",
+    "brand": "DeWalt",
+    "model": "DWE5010",
+    "quantity": 1,
+    "category": "Drilling & Driving",
+    "power": "120V corded",
+    "notes": "Spreadsheet location: Storage Room.",
+    "sourceRows": [
+      "Sheet1 left block row 19"
+    ],
+    "guide": "/tools/handheld/guides/dewalt-dwe5010/",
+    "manufacturerUrl": "https://www.dewalt.com/product/dwe5010/12-single-speed-hammer-drill",
+    "manualUrl": null,
+    "team": {
+      "location": "Storage Room (spreadsheet note—verify label)"
+    }
+  },
+  {
+    "id": "pd204-work-light",
+    "name": "DeWalt-Battery-Compatible Work Light",
+    "brand": "Unknown",
+    "model": "PD204",
+    "quantity": 1,
+    "category": "Cleanup & Utility",
+    "power": "DeWalt 20V MAX-compatible battery",
+    "notes": "Brand is unknown in the source sheet. Verify nameplate before publishing manufacturer claims.",
+    "sourceRows": [
+      "Sheet1 left block row 20"
+    ],
+    "guide": "/tools/handheld/guides/pd204-work-light/",
+    "manufacturerUrl": null,
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  },
+  {
+    "id": "dremel-8240",
+    "name": "Cordless Rotary Tool",
+    "brand": "Dremel",
+    "model": "8240-5",
+    "quantity": 1,
+    "category": "Cutting",
+    "power": "12V cordless",
+    "notes": "",
+    "sourceRows": [
+      "Sheet1 right block row 2"
+    ],
+    "guide": "/tools/handheld/guides/dremel-8240/",
+    "manufacturerUrl": "https://www.dremel.com/us/en/p/8240-5-f0138240aa",
+    "manualUrl": null,
+    "team": {
+      "location": null
+    }
+  }
+]

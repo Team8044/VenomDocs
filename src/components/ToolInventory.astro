@@ -1,0 +1,65 @@
+---
+import rawTools from '../data/tools.json';
+import { toolsSchema } from '../lib/tools-schema';
+
+const tools = toolsSchema.parse(rawTools).sort((a, b) => a.brand.localeCompare(b.brand) || a.model.localeCompare(b.model));
+const brands = [...new Set(tools.map((tool) => tool.brand))].sort();
+const categories = [...new Set(tools.map((tool) => tool.category))].sort();
+const totalUnits = tools.reduce((sum, tool) => sum + tool.quantity, 0);
+const withBase = (path: string) => `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
+---
+
+<section class="tool-inventory" aria-labelledby="inventory-heading">
+  <h2 id="inventory-heading">Inventory</h2>
+  <p class="inventory-summary" id="inventory-summary">Showing all {tools.length} models · {totalUnits} total tools</p>
+  <div class="inventory-controls" role="search" aria-label="Filter handheld power tools">
+    <label>Search
+      <input id="tool-search" type="search" placeholder="Name, brand, or model…" autocomplete="off" />
+    </label>
+    <label>Brand
+      <select id="brand-filter"><option value="">All brands</option>{brands.map((brand) => <option value={brand.toLowerCase()}>{brand}</option>)}</select>
+    </label>
+    <label>Category
+      <select id="category-filter"><option value="">All categories</option>{categories.map((category) => <option value={category.toLowerCase()}>{category}</option>)}</select>
+    </label>
+  </div>
+  <div class="inventory-table-wrap">
+    <table class="inventory-table">
+      <thead><tr><th>Tool</th><th>Brand</th><th>Model</th><th>Category</th><th>Qty.</th></tr></thead>
+      <tbody>
+        {tools.map((tool) => (
+          <tr data-tool-row data-search={`${tool.name} ${tool.brand} ${tool.model} ${tool.notes}`.toLowerCase()} data-brand={tool.brand.toLowerCase()} data-category={tool.category.toLowerCase()}>
+            <td><a href={withBase(tool.guide)}>{tool.name}</a></td><td>{tool.brand}</td><td><code>{tool.model}</code></td><td>{tool.category}</td><td>{tool.quantity}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p id="inventory-empty" class="inventory-empty" hidden>No tools match those filters.</p>
+  </div>
+</section>
+
+<script>
+  const search = document.querySelector<HTMLInputElement>('#tool-search');
+  const brand = document.querySelector<HTMLSelectElement>('#brand-filter');
+  const category = document.querySelector<HTMLSelectElement>('#category-filter');
+  const rows = [...document.querySelectorAll<HTMLTableRowElement>('[data-tool-row]')];
+  const summary = document.querySelector('#inventory-summary');
+  const empty = document.querySelector<HTMLElement>('#inventory-empty');
+  const totalUnits = 25;
+
+  function filterTools() {
+    const query = search?.value.trim().toLowerCase() ?? '';
+    let visible = 0;
+    let units = 0;
+    for (const row of rows) {
+      const matches = (!query || row.dataset.search?.includes(query)) && (!brand?.value || row.dataset.brand === brand.value) && (!category?.value || row.dataset.category === category.value);
+      row.hidden = !matches;
+      if (matches) { visible += 1; units += Number(row.cells[4]?.textContent ?? 0); }
+    }
+    if (summary) summary.textContent = visible === rows.length ? `Showing all ${visible} models · ${totalUnits} total tools` : `Showing ${visible} models · ${units} tools`;
+    if (empty) empty.hidden = visible !== 0;
+  }
+  search?.addEventListener('input', filterTools);
+  brand?.addEventListener('change', filterTools);
+  category?.addEventListener('change', filterTools);
+</script>

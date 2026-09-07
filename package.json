@@ -1,0 +1,25 @@
+{
+  "name": "venom-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "npm run validate:tools && ASTRO_TELEMETRY_DISABLED=1 astro check && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/validate-built-links.mjs",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "generate:guides": "node --experimental-strip-types scripts/generate-guides.ts",
+    "fetch:images": "node scripts/fetch-tool-images.mjs",
+    "validate:tools": "node --experimental-strip-types scripts/validate-tools.ts",
+    "test": "npm run validate:tools"
+  },
+  "dependencies": {
+    "@astrojs/check": "latest",
+    "@astrojs/starlight": "latest",
+    "astro": "latest",
+    "sharp": "latest",
+    "typescript": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {}
+}
